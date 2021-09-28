@@ -1,9 +1,9 @@
 {
-  "name": "nextauth-firebase-example",
+  "name": "nextauth-firebase-auth-example",
   "version": "0.1.0",
   "private": true,
   "description": "An example project for NextAuth.js integration with Firebase Authentication",
-  "repository": "https://github.com/elpnt/nextauth-firebase-example",
+  "repository": "https://github.com/elpnt/nextauth-firebase-auth-example",
   "scripts": {
     "dev": "next",
     "build": "next build",
