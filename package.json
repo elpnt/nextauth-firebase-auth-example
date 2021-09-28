@@ -4,13 +4,14 @@
   "private": true,
   "description": "An example project for NextAuth.js integration with Firebase Authentication",
   "repository": "https://github.com/elpnt/nextauth-firebase-auth-example",
+  "author": "Matsuoka <quantumular@gmail.com>",
+  "license": "ISC",
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start",
     "types": "tsc --noEmit"
   },
-  "author": "Matsuoka <quantumular@gmail.com>",
   "prettier": {
     "semi": false
   },
