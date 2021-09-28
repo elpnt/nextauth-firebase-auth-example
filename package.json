@@ -1,35 +1,26 @@
 {
-  "name": "next-auth-typescript-example",
-  "version": "0.0.0",
+  "name": "nextauth-firebase-example",
+  "version": "0.1.0",
   "private": true,
-  "description": "An example project for NextAuth.js using Typescript",
-  "repository": "https://github.com/nextauthjs/next-auth-typescript-example.git",
-  "bugs": {
-    "url": "https://github.com/nextauthjs/next-auth/issues"
-  },
-  "homepage": "http://next-auth-typescript-example.now.sh",
-  "main": "",
+  "description": "An example project for NextAuth.js integration with Firebase Authentication",
+  "repository": "https://github.com/elpnt/nextauth-firebase-example",
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start",
     "types": "tsc --noEmit"
   },
-  "author": "Lluis Agusti <lluis@hey.com>",
-  "contributors": [
-    "Balázs Orbán <info@balazsorban.com>",
-    "Iain Collins <me@iaincollins.com>"
-  ],
-  "license": "ISC",
+  "author": "Matsuoka <quantumular@gmail.com>",
   "prettier": {
     "semi": false
   },
   "dependencies": {
-    "next": "^11.0.0",
-    "next-auth": "latest",
+    "firebase": "^9.1.0",
+    "firebase-admin": "^9.11.1",
+    "next": "^11.1.2",
+    "next-auth": "^4.0.0-beta.2",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "sqlite3": "^5.0.2"
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@types/node": "^15.12.4",
